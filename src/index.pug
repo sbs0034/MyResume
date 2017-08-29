@@ -1,0 +1,165 @@
+html
+  head
+    title Steffen's Resume
+    link(href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet")
+    link(href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet")
+    link(rel="stylesheet", href="style.css", attr)
+  body
+    .page
+      #side_bar
+        #pic-holder
+          img.img-circle(src="IMG_20170829_155927.png")
+        #name-holder Steffen Sullivan
+        #info-holder
+          p #[i.material-icons location_on]  #[a(href="https://www.google.com/maps/place/Auburn,+AL/@32.6278835,-85.5585713,12z/data=!3m1!4b1!4m5!3m4!1s0x888cf12fb39bf883:0xcb25919235d39358!8m2!3d32.6098566!4d-85.4807825", style="color: white" target="_blank") Auburn, Alabama]
+          p #[i.material-icons email]  #[a(href="mailto:steffen@libdata.com" target="_top" style="color: white") steffen@libdata.com]
+          p #[i.material-icons phone]  #[a(href="tel:+1-2015-292-2163" style="color: white") +1 (205) 292-2163]
+          hr.skill-title-line(style="width: 75px;")
+          .skill-title Skills
+          hr.skill-title-line(style="width: 75px;")
+        .side-bar-padd
+        .skill-block-title Front End Development
+        .bar
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg
+          .bar-seg
+          .bar-seg
+          .bar-seg
+          .bar-seg
+        .skill-block.
+          Pug(Jade), HTML, Sass, SCSS, CSS, Bower, Bootstrap, jQuery, Javascript
+        .skill-block-title Back End Development
+        .bar
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg
+          .bar-seg
+          .bar-seg
+          .bar-seg
+          .bar-seg
+          .bar-seg
+          .bar-seg
+          .bar-seg
+        .skill-block.
+          Java, Scala, Node
+        .skill-block-title Data Collection And Analysis
+        .bar
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg
+          .bar-seg
+          .bar-seg
+          .bar-seg
+        .skill-block.
+          Python, Pandas, NumPy, Excel, SQLite
+        .side-bar-padd
+        hr.skill-title-line(style="width: 20px;")
+        .skill-title Developer Tools
+        hr.skill-title-line(style="width: 20px;")
+        .side-bar-padd
+        .skill-block-title Version Control
+        .skill-block(style="padding-top: 0px").
+          Git, Mercurial, GitHub, Bitbucket
+        .skill-block-title IDEs
+        .skill-block(style="padding-top: 0px").
+          Visual Studio, Eclipse, IntelliJ Idea, WebStorm, PyCharm
+        hr.skill-title-line(style="width: 75px;")
+        .skill-title OSes
+        hr.skill-title-line(style="width: 75px;")
+        .skill-block-title Linux
+        .bar
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg
+        .skill-block.
+        .skill-block-title Mac OS X
+        .bar
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg
+          .bar-seg
+        .skill-block.
+        .skill-block-title Windows
+        .bar
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg
+          .bar-seg
+          .bar-seg
+        .skill-block.
+      #main-body
+        .body-title Work History
+        hr.skill-title-line(style="width: 380px; left: 110px")
+        div(style="display: inline-block; padding-top: 10px")
+          .date-holder Apr 05, 2015 - Present
+          .work-history-title Student Researcher
+        .work-history-body
+          p
+            a(href="http://fast.auburn.edu/people/", target="_blank").work-history-place Auburn Nanotech Group
+          include reas
+        div(style="display: inline-block; padding-top: 10px")
+          .date-holder May 01, 2016 - Present
+          .work-history-title   Software Developer
+        .work-history-body
+          p
+            a(href="http://www.libdata.com/", target="_blank").work-history-place LibData
+          include libdata
+        .side-bar-padd
+        .body-title Education History
+        hr.skill-title-line(style="width: 340px; left: 110px")
+        div(style="display: inline-block; padding-top: 10px")
+          .date-holder Aug 05, 2012 - May 30, 2014
+          .work-history-title Bevill State Community College
+        .work-history-body
+          p.edu-place Fayette, Alabama
+          p(style="font-weight: bold").
+            Pre-Engineering
+          p.
+            President of Future Engineers And Mathematician of Bevill (FEMB). Participated in American Society for Engineering Education conference and design competition.
+        div(style="display: inline-block; padding-top: 10px")
+          .date-holder Aug 18, 2014 - Present
+          .work-history-title Auburn University
+        .work-history-body
+          p.edu-place Auburn, Alabama
+          p(style="font-weight: bold").
+            Software Engineering
+          p.
+            President of the Student Projects and Research Committee (2015-2016).

@@ -1,0 +1,167 @@
+@page {
+  size: A4;
+  margin: 0; }
+
+html, body {
+  width: 210mm;
+  height: 297mm;
+  background-color: #fafafa; }
+
+.page {
+  width: 21cm;
+  height: 29.7cm;
+  padding: 1cm;
+  margin: 1cm auto;
+  top: -40px;
+  left: -15px;
+  position: relative;
+  background-color: #fafafa; }
+
+body {
+  font-family: Lato;
+  background-color: #fafafa; }
+
+#side_bar {
+  width: 300px;
+  height: 110%;
+  background-color: #546e7a;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  left: 7px; }
+
+#name-holder {
+  width: 100%;
+  height: auto;
+  font-weight: 100;
+  font-size: 25pt;
+  text-align: center;
+  color: white;
+  position: relative;
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+#pic-holder {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 10px; }
+
+.img-circle {
+  border-radius: 50%;
+  border: 2px solid;
+  border-color: #455a64;
+  width: 50%; }
+
+#main-body {
+  position: absolute;
+  padding-top: 0px;
+  left: 250px;
+  width: 14.38542cm;
+  padding-left: 20px;
+  padding-top: 30px; }
+
+.skill-block {
+  text-align: center;
+  position: relative;
+  color: white;
+  width: 90%;
+  font-size: 10pt;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px; }
+
+.skill-block-title {
+  text-align: center;
+  position: relative;
+  width: 90%;
+  color: white;
+  font-size: 15pt;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.skill-title {
+  font-size: 18pt;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline; }
+
+.side-bar-padd {
+  height: 10px;
+  width: 100%;
+  position: relative; }
+
+.skill-title-line {
+  position: relative;
+  display: inline-block; }
+
+#info-holder {
+  position: relative;
+  font-size: 12pt;
+  color: white;
+  border: 0px solid;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  top: -10px; }
+
+.bar {
+  width: 250px;
+  position: relative;
+  display: inline;
+  height: 30px; }
+
+.bar-seg {
+  display: inline-block;
+  width: 16.3px;
+  background-color: #b0bec5;
+  height: 10px;
+  border: 2px solid;
+  border-color: #546e7a; }
+
+.filled {
+  background-color: white; }
+
+.body-title {
+  position: relative;
+  padding-left: 100px;
+  font-weight: bold;
+  font-size: 25px;
+  display: inline; }
+
+.date-holder {
+  display: inline-block;
+  padding-left: 100px;
+  position: relative;
+  font-size: 15pt;
+  color: grey;
+  font-weight: 100;
+  width: 150px; }
+
+.work-history-title {
+  font-size: 15pt;
+  display: inline;
+  position: relative;
+  font-weight: bold;
+  padding-bottom: 15px; }
+
+.work-history-body {
+  position: relative;
+  padding-left: 100px;
+  width: 385px;
+  left: 150px;
+  font-size: 11pt; }
+
+.work-history-place {
+  text-decoration: none;
+  font-size: 12pt;
+  color: #29b6f6;
+  padding-top: 15px; }
+
+.edu-place {
+  font-size: 12pt;
+  color: #616161; }
+
+/*# sourceMappingURL=style.css.map */
