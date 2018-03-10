@@ -8,11 +8,11 @@ html
     .page
       #side_bar
         #pic-holder
-          img.img-circle(src="photo.jpg")
+          //- img.img-circle(src="photo.jpg")
         #name-holder Steffen Sullivan
         #info-holder
           p #[i.material-icons location_on]  #[a(href="https://www.google.com/maps/place/Auburn,+AL/@32.6278835,-85.5585713,12z/data=!3m1!4b1!4m5!3m4!1s0x888cf12fb39bf883:0xcb25919235d39358!8m2!3d32.6098566!4d-85.4807825", style="color: white" target="_blank") Auburn, Alabama]
-          p #[i.material-icons email]  #[a(href="mailto:steffen@libdata.com" target="_top" style="color: white") steffen@libdata.com]
+          p #[i.material-icons email]  #[a(href="mailto:sbs0034@tigermail.auburn.edu" target="_top" style="color: white") sbs0034@tigermail.auburn.edu]
           p #[i.material-icons phone]  #[a(href="tel:+1-2015-292-2163" style="color: white") +1 (205) 292-2163]
           hr.skill-title-line(style="width: 75px;")
           .skill-title Skills
@@ -27,7 +27,7 @@ html
           .bar-seg.filled
           .bar-seg.filled
           .bar-seg.filled
-          .bar-seg
+          .bar-seg.filled
           .bar-seg
           .bar-seg
           .bar-seg
@@ -40,9 +40,9 @@ html
           .bar-seg.filled
           .bar-seg.filled
           .bar-seg.filled
-          .bar-seg
-          .bar-seg
-          .bar-seg
+          .bar-seg.filled
+          .bar-seg.filled
+          .bar-seg.filled
           .bar-seg
           .bar-seg
           .bar-seg
@@ -59,7 +59,7 @@ html
           .bar-seg.filled
           .bar-seg.filled
           .bar-seg.filled
-          .bar-seg.filled
+          .bar-seg
           .bar-seg
           .bar-seg
           .bar-seg
@@ -145,15 +145,15 @@ html
         .side-bar-padd
         .body-title Education History
         hr.skill-title-line(style="width: 340px; left: 110px")
-        div(style="display: inline-block; padding-top: 10px")
-          .date-holder Aug 05, 2012 - May 30, 2014
-          .work-history-title Bevill State Community College
-        .work-history-body
-          p.edu-place Fayette, Alabama
-          p(style="font-weight: bold").
-            Pre-Engineering
-          p.
-            President of Future Engineers And Mathematician of Bevill (FEMB). Participated in American Society for Engineering Education conference and design competition.
+        //- div(style="display: inline-block; padding-top: 10px")
+        //-   .date-holder Aug 05, 2012 - May 30, 2014
+        //-   .work-history-title Bevill State Community College
+        //- .work-history-body
+        //-   p.edu-place Fayette, Alabama
+        //-   p(style="font-weight: bold").
+        //-     Pre-Engineering
+        //-   p.
+        //-     President of Future Engineers And Mathematician of Bevill (FEMB). Participated in American Society for Engineering Education conference and design competition.
         div(style="display: inline-block; padding-top: 10px")
           .date-holder Aug 18, 2014 - Present
           .work-history-title Auburn University
@@ -163,3 +163,17 @@ html
             Computer Science
           p.
             President of the Student Projects and Research Committee (2015-2016).
+        .side-bar-padd
+        .body-title Projects
+        div(style="width: 30px;")
+        hr.skill-title-line(style="width: 340px; left: 110px")
+        div(style="display: inline-block; padding-top: 10px")
+          .date-holder Jan 12, 2018 - Present
+          .work-history-title Broun Hall Lab Entry System
+        .work-history-body
+          include lab_entry_sys
+        div(style="display: inline-block; padding-top: 10px")
+          .date-holder Dec 19, 2017 - Present
+          .work-history-title Karen
+        .work-history-body
+          include karen
