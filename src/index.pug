@@ -13,7 +13,7 @@ html
         #info-holder
           p #[i.material-icons location_on]  #[a(href="https://www.google.com/maps/place/Auburn,+AL/@32.6278835,-85.5585713,12z/data=!3m1!4b1!4m5!3m4!1s0x888cf12fb39bf883:0xcb25919235d39358!8m2!3d32.6098566!4d-85.4807825", style="color: white" target="_blank") Auburn, Alabama]
           p #[i.material-icons email]  #[a(href="mailto:steffen@sullivan.solutions" target="_top" style="color: white") steffen@sullivan.solutions]
-          p #[i.material-icons phone]  #[a(href="tel:+1-2015-292-2163" style="color: white") +1 (205) 292-2163]
+          p #[i.material-icons phone]  #[a(href="tel:+1-334-400-9301" style="color: white") +1 (334) 400-9301]
           hr.skill-title-line(style="width: 75px;")
           .skill-title Skills
           hr.skill-title-line(style="width: 75px;")
@@ -28,12 +28,12 @@ html
           .bar-seg.filled
           .bar-seg.filled
           .bar-seg.filled
-          .bar-seg
-          .bar-seg
+          .bar-seg.filled
+          .bar-seg.filled
           .bar-seg
           .bar-seg
         .skill-block.
-          Pug(Jade), HTML, Sass, SCSS, CSS, Bower, Bootstrap, jQuery, Javascript, Vue.js
+          Pug(Jade), HTML, Sass, SCSS, CSS, Bower, Bootstrap, Python (Kivy, KivyMD, PyGTK), jQuery, Javascript, Vue.js, WinForms
         .skill-block-title Back End Development
         .bar
           .bar-seg.filled
@@ -43,13 +43,13 @@ html
           .bar-seg.filled
           .bar-seg.filled
           .bar-seg.filled
-          .bar-seg
-          .bar-seg
+          .bar-seg.filled
+          .bar-seg.filled
           .bar-seg
           .bar-seg
           .bar-seg
         .skill-block.
-          Java, Scala, Node
+          Java, Scala, Node, C#.NET, VB.NET, Python (Flask)
         .skill-block-title Data Collection And Analysis
         .bar
           .bar-seg.filled
@@ -65,7 +65,7 @@ html
           .bar-seg
           .bar-seg
         .skill-block.
-          Python, Pandas, NumPy, Excel, SQLite, MongoDB
+          Python( Pandas, NumPy), Excel, SQLite, MongoDB, Microsoft SQL, Postgres
         .side-bar-padd
         hr.skill-title-line(style="width: 20px;")
         .skill-title Developer Tools
@@ -73,10 +73,13 @@ html
         .side-bar-padd
         .skill-block-title Version Control
         .skill-block(style="padding-top: 0px").
-          Git, Mercurial, GitHub, Bitbucket
+          Git, Mercurial, GitHub, Bitbucket, GitLab
         .skill-block-title IDEs
         .skill-block(style="padding-top: 0px").
           Visual Studio, Eclipse, IntelliJ Idea, WebStorm, PyCharm
+        .skill-block-title CI / CD
+        .skill-block(style= "padding-top: 0px;").
+          Harness.io, Github Actions, Gitlab CI / CD, Azure Pipelines
         hr.skill-title-line(style="width: 75px;")
         .skill-title OSes
         hr.skill-title-line(style="width: 75px;")
@@ -121,8 +124,8 @@ html
           .bar-seg.filled
           .bar-seg.filled
           .bar-seg.filled
-          .bar-seg
-          .bar-seg
+          .bar-seg.filled
+          .bar-seg.filled
           .bar-seg
         .skill-block.
       #main-body
@@ -150,6 +153,17 @@ html
           p
             a(href="http://cryoxcel.com", target="_blank").work-history-place Cryoxcel
           include cryoxcel
+        
+        .side-bar-padd
+        div(style="display: inline-block; padding-top: 10px")
+          .date-holder September 2019 - Present
+          .work-history-title   Software Engineer
+        .work-history-body
+          p 
+            a(href="https://www.marketron.com/" target="_blank").work-history-place Marketron Broadcast Solutions
+          ui 
+            li 
+        
         //- .body-title Education History
         //- hr.skill-title-line(style="width: 340px; left: 110px")
         //- //- div(style="display: inline-block; padding-top: 10px")
@@ -168,17 +182,17 @@ html
         //-   p.edu-place Online
         //-   p(style="font-weight: bold").
         //-     Software Engineering
-        .side-bar-padd
-        .body-title Projects
-        div(style="width: 30px;")
-        hr.skill-title-line(style="width: 340px; left: 110px")
-        div(style="display: inline-block; padding-top: 10px")
-          .date-holder Jan 12, 2018 - Present
-          .work-history-title Broun Hall Lab Entry System
-        .work-history-body
-          include lab_entry_sys
-        div(style="display: inline-block; padding-top: 10px")
-          .date-holder Dec 19, 2017 - Present
-          .work-history-title Karen
-        .work-history-body
-          include karen
+        //- .side-bar-padd
+        //- .body-title Projects
+        //- div(style="width: 30px;")
+        //- hr.skill-title-line(style="width: 340px; left: 110px")
+        //- div(style="display: inline-block; padding-top: 10px")
+        //-   .date-holder Jan 12, 2018 - Present
+        //-   .work-history-title Broun Hall Lab Entry System
+        //- .work-history-body
+        //-   include lab_entry_sys
+        //- div(style="display: inline-block; padding-top: 10px")
+        //-   .date-holder Dec 19, 2017 - Present
+        //-   .work-history-title Karen
+        //- .work-history-body
+        //-   include karen
